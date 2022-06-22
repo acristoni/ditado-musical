@@ -1,0 +1,100 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+main {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.espaco {
+    height: 16px;
+    width: 100px;
+    margin: 0px 0px;
+    border-right: 1px grey dotted; /*PROVISÓRIO*/
+}
+
+.linha {
+    height: 10px;
+    width: 100px;
+    margin: 3px 0px;
+    background-color: black;
+}
+
+#clavedesol {
+    height: 250px;
+    position: relative;
+    bottom: 150px;
+    right: 5px;
+}
+
+footer {
+    margin: 30px auto;
+}
+
+#comecar {
+    border: 7px solid crimson;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: yellow;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#comecar:hover {
+    background-color: yellow;
+    color: red;
+}
+
+.espaco .nota {
+    height: 16px;
+    width: 100px;
+    margin: 0px 0px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.linha .nota {
+    height: 16px;
+    width: 100px;
+    margin: 0px 0px;
+    border: none;
+    background-color: black;
+}
+
+#seminima {
+    position: relative;
+    height: 70px;
+    bottom: 50px;
+}
